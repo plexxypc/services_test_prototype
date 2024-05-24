@@ -1,0 +1,302 @@
+/* Large Screen  */
+@media (min-width: 1170px) and (max-width: 1400px) {
+}
+
+/* Additional media query */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1210px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+		header li.dropdown-mega .dropdown-menu.show {
+    display: block !important;
+}
+	.navbar .nav-link {
+    height: auto !important;
+    line-height: inherit !important;
+}
+header li.dropdown-mega:hover .dropdown-menu {
+    display: none;
+}
+        .w-75 {
+    width: 100% !important;
+}
+.fs-75 {
+    font-size: 40px;
+}
+  .my-5 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .navbar-white .nav-link {
+    color: #000 !important;
+  }
+  .welcome-h .section-box {
+    height: 490px;
+  }
+  .equal-h2 .section-box {
+    height: auto;
+  } 
+  .p-4 {
+    padding: 1rem !important;
+  }
+  .equal-h .section-box { 
+    min-height: 300px;
+  }
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  header.fixed-top1 {
+    position: relative !important;
+    background: #fff;
+  }
+
+  header .navbar .navbar-nav li.list-inline-item {
+    margin-bottom: 10px;
+  }
+  .fixed-top1 .white-logo {
+    display: block;
+	    height: auto;
+  }
+  .w-15 {
+    width: 60%;
+  }
+  .fixed-top1 .color-logo {
+    display: none;
+  }
+  .navbar-dark .navbar-nav .nav-item > .nav-link {
+    color: #000;
+  }
+  .heading h1 {
+    font-size: 1.5rem;
+  }
+  #navbar-content {
+    margin-left: 1rem;
+  }
+  a.nav-link.dropdown-toggle {
+    width: fit-content;
+}
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) { 
+a.nav-link.dropdown-toggle {
+    width: fit-content;
+}
+.first-section .row, .text-section .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.game-banner .casino-banner {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.address-box .w-15 {
+    width: 13%;
+}
+.w-80 {
+    width: 100%;
+}
+.tech-carousel .owl-dots {
+    display: block;
+}
+	.fs-75 { 
+	 font-size: 35px !important;
+    line-height: 1.2 !important;
+}
+	.w-50 {
+    width: 100% !important;
+}
+	.heading .game-h1 {
+    line-height: 1.2; 
+}
+	.btnm-100{width: 100%;}
+	.tools-carousel .owl-nav button span {
+    opacity: 1;
+}
+	.font-40 {font-size: 40px;}
+	.awards-section a img {
+    width: 65%;
+}
+	.w-55 {
+    width: 100%;
+}
+	.bread-top ~ .text-section .heading h1.fs-35 {
+    line-height: 1.2;
+}
+	  #carouselExampleCaptions .carousel-control-next-icon, 
+  #carouselExampleCaptions .carousel-control-prev-icon {
+    display: none;
+}
+.get-section .heading {
+    padding-bottom: 2rem;
+    padding-top: 1rem; 
+}
+.row {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.get-section hr {
+    margin-bottom: 2rem !important;
+}
+.bread-top .text-end {
+    text-align: center !important;
+}
+.icon-box {
+    margin-bottom: 3rem;
+}
+.bread-top .row {
+    flex-direction: column-reverse;
+}
+.breadcrumb {
+    justify-content: center;
+}
+.bread-section .heading p {
+    line-height: 1.2;
+}
+.breadcrumb-title {
+    padding-bottom: 0.5rem;
+}
+.dropdown-toggle::after {display: inline-block;}
+.carousel-inner { 
+    padding-top: 1.8rem;
+} 
+.testimonial-carousel .owl-nav [class*=owl-]:hover {
+    background: transparent;
+}
+.footer-main .wiedget-title {
+    padding-top: 2rem;
+}
+.clients-section .heading { 
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+	header li.dropdown-mega:hover .dropdown-menu {
+    display: none;
+}
+	header li.dropdown-mega .dropdown-menu.show {
+    display: block !important;
+}
+	.navbar .nav-link {
+    height: auto !important;
+    line-height: inherit !important;
+}
+    .w-75 { 
+    width: 100% !important;
+}
+.fs-75 {
+    font-size: 40px;
+}
+
+  #navbar-content {
+    margin-left: 1rem;
+  }
+  .navbar-white .nav-link {
+    color: #000 !important;
+  }
+  .welcome-h .section-box,
+  .equal-h2 .section-box {
+    height: auto;
+  }
+  .p-4 {
+    padding: 1rem !important;
+  }
+  .pt-5 { padding-top: 1rem !important;}
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .equal-h .section-box {
+    min-height: 300px;
+  }
+  .heading h1 {
+    line-height: 1.75;
+  }
+  .logo-carousel .owl-dots {
+    display: block;
+}
+  .heading .h1 {
+    line-height: 1.2; 
+}
+.address-section .address-box {
+    margin: 3rem;
+}
+.heading h1.fs-50 {
+    line-height: 1.2;
+    font-size: 33.333333333333px;
+}
+  .carousel-captions {
+padding: 20px 25px;
+  }
+  .welcome-h .section-box {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    margin-top: 2rem;
+}
+  .heading p {
+    line-height: 1.75;
+}
+  .navbar-dark .navbar-nav .nav-item > .nav-link {
+    color: #000;
+  }
+  .carousel-captions h2 {
+    font-size: 35px;
+  }
+.color-logo {
+    display: none;
+}
+.fixed-top1.sticky .w-15 {
+    width: 65%;
+    transition: all ease-in-out .3s;
+    margin-right: 0rem;
+}
+  .w-15 {
+    width: 60%;
+  }
+  header.fixed-top1 {
+    background: #fff;
+    padding: 10px 0px;
+  }
+  .fixed-top1 .white-logo, .fixed-top1.sticky .white-logo {
+    display: block !important;
+}
+}
+
+/* Additional Media Quirry */
+@media only screen and (max-width: 479px) {
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Large Screen (1920)  */
+@media (min-width: 1601px) {
+}
+
+/* Large Screen (1600)  */
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+}
