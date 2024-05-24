@@ -1661,6 +1661,110 @@ button {
   display: none;
 }
 
+
+/*New FAQ CSS*/
+
+.faq > .section-header > h4{
+
+  color: var(--Paragraph, #313030);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  align-self: stretch;
+  margin-bottom: 10px;
+}
+
+.faq > .section-header > h3{
+
+  color: var(--Text, #000);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  align-self: stretch;
+}
+
+.section-container-ad{
+  background: url(/assets/images/ActionBannerClicktoAction41.png) lightgray 50% / cover no-repeat;
+  width: 100%;
+  height: 550px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-green-container{
+  width: 1230px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 42px;
+  border: 2px solid #03B86F;
+  background: linear-gradient(90deg, #027748 0%, #03AB67 100%);
+  display: flex;
+  position: relative;
+}
+
+.text-section{
+  padding: 60px;
+  gap: 150px;
+}
+
+.text-section > h3{
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 487px;
+  margin-bottom: 10px;
+}
+
+.text-section > h4{
+  color: #FFC721;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 487px;
+  margin-bottom: 20px;
+}
+
+.text-section > a > button{
+  display: flex;
+  width: 165px;
+  height: 55px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #F5F3FF;
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.20);
+}
+
+.absolute-ad-img {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  width: 156px;
+  height: 102px;
+  width: 659px;
+  height: 628px;
+  flex-shrink: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .faqs-select {
     display: none;
@@ -1680,6 +1784,7 @@ button {
     border-radius: 14px;
     border: none;
     box-shadow: none;
+    align-self: stretch;
   }
 
   .question-title h4 {
