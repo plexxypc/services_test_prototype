@@ -1698,6 +1698,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .small-green-container{
@@ -1756,13 +1757,35 @@ button {
 
 .absolute-ad-img {
   position: absolute;
-  right: 10%;
-  top: 40%;
-  width: 156px;
-  height: 102px;
-  width: 659px;
-  height: 628px;
+  left: 60%;
+  top: 42.5%;
+  width: 524px;
+  height: 304px;
   flex-shrink: 0;
+}
+
+.absolute-ad-img2 {
+  position: absolute;
+  left: 56.5%;
+  top: 70%;
+  width: 524px;
+  height: 304px;
+  flex-shrink: 0;
+}
+
+.absolute-ad-img3 {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 524px;
+  height: 304px;
+  flex-shrink: 0;
+}
+
+.absolute-ad-img4  {
+  position: absolute;
+  top: 0%;
+  left: 62%;
 }
 
 @media screen and (min-width: 1024px) {
